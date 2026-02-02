@@ -23,10 +23,7 @@
  * You can also delete the lists that you don't want.
 */
 var myPlaylists = {
-    "90s HITS": 'PLZyqOyXxaVETqpHhT_c5GPmAPzhJpJ5K7',
-    "00s HITS": 'PL69714D95619E327E',
-    "VAPORWAVE": 'PLSChV4T8EDb9TZsLO23Tsj6-UUyAXtGg5',
-    //"ANOTHER PLAYLIST": 'PLZyqOyXxaVETqpHhT_c5GPmAPzhJpJ5K7',
+    "Godzilla": 'PL71eOg0IhfHmkib40aeOldN5tTBpugyev'
 };
 
 
@@ -35,7 +32,7 @@ var myPlaylists = {
  * The first playlist that the player will load on startup. You may change it by
  * writing the name of the new playlist below.
 */
-var currentPlaylist = "90s HITS";
+var currentPlaylist = "Godzilla";
 
 
 /**
@@ -60,7 +57,7 @@ var myThemes = {
  * [4. CURRENT THEME]
  * Set the theme of your player writing its name below.
  */
-var currentTheme = "DEFAULT";
+var currentTheme = "RED GRUNGE";
 
 
 // ===== END OF CONFIGURATION =====
