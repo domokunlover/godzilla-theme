@@ -22,7 +22,6 @@ button{
     padding: 2px;
     margin-right: 1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: lowercase;
     font-weight: bold;
     color: white;
 
@@ -51,7 +50,6 @@ button:active{
 
 select{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: lowercase;
     font-weight: bold;
     color: white;
     padding: 0 2px;
@@ -193,7 +191,6 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     display: flex;
     margin-bottom: 2px;
     color: #a42c2c;
-    text-transform: lowercase;
     font-weight: bold;
 }
 
