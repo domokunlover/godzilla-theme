@@ -282,10 +282,12 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     height: 25px;
     max-width: 150px;
     text-overflow: ellipsis;
+    cursor: var(--pointer-cur), pointer;
 }
 
 #videoButton{
     height: 25px;
+    cursor: var(--pointer-cur), pointer;
 }
 
 #playerLogo{
@@ -306,6 +308,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
 #seekBar{
     width: 99%;
     margin-bottom: 12px;
+    cursor: var(--horz-select-cur), ew-resize;
 }
 
 .playing-controls{
@@ -346,6 +349,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     height: 30px;
     max-width: 175px;
     text-overflow: ellipsis;
+    cursor: var(--pointer-cur), pointer;
 }
 
 
