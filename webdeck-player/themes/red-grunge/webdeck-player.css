@@ -59,10 +59,12 @@ select{
     background: #202020;
     border: outset 2px #a42c2c;
     border-radius: 2px;
+    cursor: var(--pointer-cur), pointer;
 }
 
 select option{
     background: black;
+    cursor: var(--pointer-cur), pointer;
 }
 
 select:active{
@@ -70,6 +72,7 @@ select:active{
     border: outset 2px #6e1c1c;
     border-radius: 2px;
     box-shadow: none;
+    cursor: var(--pointer-cur), pointer;
 }
 
 
@@ -112,17 +115,20 @@ input[type="range"] {
     height: 5px;
     margin-top: 7px;
     margin-bottom: 7px;
+    cursor: var(--default-cur), default;
 }
 
 /* slider track */
 input[type="range"]::-webkit-slider-runnable-track /* For Chrome */ {
     background-color: rgb(30, 30, 30);
     height: 100%;
+    cursor: var(--default-cur), default;
 }
 
 input[type="range"]::-moz-range-track /* For Firefox */ {
     background-color: rgb(30, 30, 30);
     height: 100%;
+    cursor: var(--default-cur), default;
 }
 
 /* slider thumb */
@@ -142,6 +148,7 @@ input[type="range"]::-webkit-slider-thumb /* For Chrome */ {
     width: 12pt;
     position: relative;
     top: -10px;
+    cursor: var(--horz-select-cur), ew-resize;
 }
 
 input[type="range"]::-webkit-slider-thumb:active /* For Chrome */ {
@@ -152,6 +159,7 @@ input[type="range"]::-webkit-slider-thumb:active /* For Chrome */ {
     border: inset 2px #2c2c2c;
     border-radius: 2px;
     box-shadow: none;
+    cursor: var(--horz-select-cur), ew-resize;
 }
 
 
@@ -168,6 +176,7 @@ input[type="range"]::-moz-range-thumb /* For Firefox */ {
 
     height: 1.5rem;
     width: 0.8rem;
+    cursor: var(--horz-select-cur), ew-resize;
 }
 
 input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
@@ -178,6 +187,7 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     border: inset 2px #2c2c2c;
     border-radius: 2px;
     box-shadow: none;
+    cursor: var(--horz-select-cur), ew-resize;
 }
 
 
@@ -343,4 +353,5 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     --default-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/normal%20select.cur');
     --pointer-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/link%20select.cur');
     --outlink-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/outlink.cur');
+    --horz-select-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/horizantal%20select.cur');
 }
