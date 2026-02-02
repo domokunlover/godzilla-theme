@@ -12,6 +12,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     background: black;
+    cursor: var(--default-cur), default;
 }
 
 select{
@@ -28,6 +29,7 @@ button{
     background: #202020;
     border: outset 2px #a42c2c;
     border-radius: 2px;
+    cursor: var(--pointer-cur), pointer;
 }
 
 button:active{
@@ -334,4 +336,11 @@ input[type="range"]::-moz-range-thumb:active /* For Firefox */ {
     height: 30px;
     max-width: 175px;
     text-overflow: ellipsis;
+}
+
+
+:root {
+    --default-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/normal%20select.cur');
+    --pointer-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/link%20select.cur');
+    --outlink-cur: url('https://domokunlover.github.io/godzilla-theme/cursors/blood-splatter/outlink.cur');
 }
